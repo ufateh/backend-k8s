@@ -4,5 +4,5 @@ WORKDIR /usr/app
 COPY . /usr/app
 RUN npm i
 
+EXPOSE 8080
 CMD ["node","index.js"]
-EXPOSE 3000
